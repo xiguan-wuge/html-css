@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.div{
+  display: block;
+}
+.dKtNiC {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1001;
+  background-color: #ffffff;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #f8f8f8;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 20px;
+  padding-top: 2px;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.dKtNiC > a, .dKtNiC span {
+  display: block;
+  text-align: center;
+}
+.dKtNiC .iconfont {
+  font-size: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #5D656B;
+}
+.dKtNiC .text {
+  font-size: 12px;
+  -webkit-transform: scale(10/12);
+  -ms-transform: scale(10/12);
+  transform: scale(10/12);
+}

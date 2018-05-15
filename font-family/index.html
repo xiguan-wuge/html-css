@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>豆瓣市集</title>
+  <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="common.css">
+  <style>
+    #footer {
+    margin-top: 0;
+    }
+    #footer {
+    width: 100%;
+    background-color: #f7f7f7;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-top: 60px;
+  }
+  #footer .footer-wrapper {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    overflow: hidden;
+    color: #bdbdbd;
+    text-align: center;
+  }
+  #footer .logo {
+    font-size: 32px;
+    line-height: 1em;
+    color: #9b9b9b;
+    margin-right: 10px;
+  } 
+  #footer .info, #footer .logo {
+    display: inline-block;
+    /* vertical-align: top; */
+  }
+  .mui-icon {
+    font-family: market-ui-iconfont!important;
+    /* !important 覆盖外面的字体 */
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: .2px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+  .mui-icon.logo:before {
+    content: "\e603";
+    /* content: 显示伪元素里的东西 文字 图案。。。 */
+  }
+  </style>
+</head>
+<body>
+  <!-- 使用自定义字体显示图标是一项常用的技能
+  iconfont alifont
+  网页中会使用一些小图标，首页，我的，订单
+  支付，图片 tabbar 10-20个图标
+  png  http 的下载太多。
+  雪碧图 sprite 把多张图拼成一张图
+  background-position来取图
+  mui-icon 将这些小图标放到一个自定义字体库里。
+  图标字体库由于使用base64，将很多的图标集中带字体中来显示，省去了很多大小
+  也只有一个http请求
+  base64 是一个Chrome推出的文件格式，也是编码格式，
+  经常使用来表示图片文件，体积更小。
+  前端技能优化，使用自定义字体库，base64图片
+  -->
+
+  <div id="footer">
+    <div class="foot-wrapper">
+        <span class="logo">
+          <i class="mui-icon logo">
+            <!-- ::before -->
+           
+          </i>
+        </span>
+    </div>
+  </div>
+    
+</body>
+</html>
